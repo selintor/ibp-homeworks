@@ -1,43 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Homework">
-  <meta name="keywords" content="HTML, CSS, JavaScript">
-  <meta name="author" content="Can Koyuncu">
-  <title>Homework 3</title>
-  <style>
-    body{
-      background-color: #101414;
-      color: #c9d1d9;
-      width: 100vw;
-      height: 100vh;
-      align-items: center;
-      justify-content: center;
-      font-family: Calibri, Helvetica, sans-serif;
-    }
-    #inputs input{
-      margin-top: 3vh;
-    }
-  </style>
+    <title>Meta Information</title>
+    <meta name="author" content="Dracarys">
+    <meta name="description" content="Aciklamalar">
+    <meta name="keywords" content="HTML, CSS, JavaScript, PHP, WEB">
 </head>
 <body>
-<div id="inputs" align="center">
-  <h1>Homework 3</h1> <br>
-  <input type="hidden" placeholder="Hidden Text"> <button type="button" onclick="alert('Hidden Input')">Enter</button> <br>
-  <input type="tel" placeholder="Telephone"> <button type="button" onclick="alert('Telephone Input')">Enter</button> <br>
-  <input type="email" placeholder="E-Mail"> <button type="button" onclick="alert('E-Mail Input')">Enter</button> <br>
-  <input type="number" placeholder="Number"> <button type="button" onclick="alert('Number Input')">Enter</button> <br>
-  <input type="range"> <button type="button" onclick="alert('Range Input')">Enter</button> <br>
-  <input type="search" placeholder="Search"> <button type="button" onclick="alert('Search Input')">Enter</button> <br>
-  <input type="image"> <button type="button" onclick="alert('Image Input')">Enter</button> <br>
-  <input type="week"> <button type="button" onclick="alert('Week Input')">Enter</button> <br>
-  <input type="url" placeholder="URL"> <button type="button" onclick="alert('URL Input')">Enter</button> <br>
-  <input type="datetime-local"> <button type="button" onclick="alert('Date Time Input')">Enter</button> <br>
-  <input type="month"> <button type="button" onclick="alert('Month Input')">Enter</button> <br>
-  <input type="time"> <button type="button" onclick="alert('Time Input')">Enter</button> <br>
-</div>
-</body>
-</html>
+    <h1>All input types</h1>
+
+    <h2>1. Image Maps</h2>
+    <img src="https://i.scdn.co/image/ab67616d0000b273ae202302716abec3bfc4a008" alt="Dracarys" usemap="#youtubeMap">
+    <map name="youtubeMap">
+        <area shape="rect" coords="0,0,480,360" href="https://www.youtube.com/watch?v=pxmKOt7CEPk" alt="Dracarys">
+    </map>
+
+    <h2>2. Image Manipulation</h2>
+    <img src="https://i.scdn.co/image/ab67616d0000b273ae202302716abec3bfc4a008" alt="Dracarys" width="300" height="200">
+
+    <h2>3. Color Usage</h2>
+    <div style="background-color: #d4ff00; color: #170101;">This div has a yellow background color and black text color.</div>
+
+    <h2>4. Input Types</h2>
+
+    <label for="hiddenInput">Hidden:</label>
+    <input type="hidden" id="hiddenInput" value="Hidden Value">
+
+    <br><br>
+
+    <label for="telInput">Tel:</label>
+    <input type="tel" id="telInput" placeholder="Phone Number">
+
+    <br><br>
+
+    <label for="emailInput">Email:</label>
+    <input type="email" id="emailInput" placeholder="Email Address">
+
+    <br><br>
+
+    <label for="numberInput">Number:</label>
+    <input type="number" id="numberInput" min="1" max="10" step="1">
+
+    <br><br>
+
+    <label for="rangeInput">Range:</label>
+    <input type="range" id="rangeInput" min="0" max="100" step="5">
+
+    <br><br>
+
+    <label for="searchInput">Search:</label>
+    <input type="search" id="searchInput" placeholder="Search">
+
+    <br><br>
+
+    <label for="imageInput">Image:</label>
+    <input type="image" id="imageInput" src="image.jpg" alt="Submit">
+
+    <br><br>
+
+    <label for="weekInput">Week:</label>
+    <input type="week" id="weekInput">
+
+    <br><br>
+
+    <label for="urlInput">URL:</label>
+    <input type="url" id="urlInput" placeholder="Website URL">
+
+    <br><br>
+
+    <label for="datetimeLocalInput">Datetime-Local:</label>
+    <input type="datetime-local" id="datetimeLocalInput">
+
+    <br><br>
+
+    <label for="monthInput">Month:</label>
+    <input type="month" id="monthInput">
+
+    <br><br
